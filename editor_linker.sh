@@ -17,9 +17,7 @@ then
 fi
 
 function symlink {
-  echo $1
-  echo $2
-  ln -s "$1" "$2"
+  ln -nsf "$1" "$2"
 }
 
 if [[ -e $target ]]; then
