@@ -1,0 +1,14 @@
+[
+	{
+		"name": "turbofluen",
+		"rootPath": "$home/git/turbofluen",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "turbofluen-refactor",
+		"rootPath": "$home/git/turbofluen-refactor",
+		"paths": [],
+		"group": ""
+	}
+]

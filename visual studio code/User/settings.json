@@ -1,0 +1,67 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "solid",
+  "editor.fontFamily": "Inconsolata-g for powerline", //"SF Mono", //, Inconsolata-g for powerline, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 12,
+  "editor.lineHeight": 20,
+  "editor.snippetSuggestions": "top",
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": false,
+  "workbench.activityBar.visible": false,
+  "window.zoomLevel": 0,
+  "editor.tabSize": 2,
+  "editor.renderIndentGuides": false,
+  "workbench.welcome.enabled": false,
+  "markdown.preview.scrollEditorWithPreview": false,
+  "markdown.preview.markEditorSelection": false,
+  "markdown.preview.scrollPreviewWithEditorSelection": false,
+  "[markdown]": {
+    "editor.quickSuggestions": false,
+    "editor.wordWrap": "on",
+    "editor.tabSize": 4,
+    "editor.rulers": []
+  },
+  "[ruby]": {
+    "editor.tabSize": 2
+  },
+  "pasteImage.path": "./images/",
+  "[c]": {
+    "editor.tabSize": 4
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[sql]": {
+    "editor.tabSize": 4
+  },
+  "[rust]": {
+    "editor.tabSize": 4
+  },
+  "java.referencesCodeLens.enabled": false,
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "workbench.iconTheme": "material-icon-theme",
+  "typescript.check.tscVersion": false,
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.editor.enablePreview": false,
+  "editor.minimap.enabled": false,
+  "python.linting.pylintEnabled": false,
+  "editor.rulers": [
+    80
+  ],
+  "workbench.colorTheme": "Solarized Dark",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#999"
+  },
+  "rust.rustup": {
+    "toolchain": "stable-x86_64-apple-darwin",
+    "nightlyToolchain": "nightly-x86_64-apple-darwin"
+  },
+  "rust.mode": "rls",
+  "rust.rls": {
+    "useRustfmt": true
+  },
+  "extensions.ignoreRecommendations": false
+}
