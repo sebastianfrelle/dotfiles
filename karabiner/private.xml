@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<devicevendordef>
+			<vendorname>Dell</vendorname>
+			<vendorid>0x413c</vendorid>
+		</devicevendordef>
+		<deviceproductdef>
+			<productname>Dell USB Keyboard</productname>
+			<productid>0x2003</productid>
+		</deviceproductdef>
+	</item>
+
+	<item>
+		<devicevendordef>
+			<vendorname>GASIA</vendorname>
+			<vendorid>0x0e8f</vendorid>
+		</devicevendordef>
+		<deviceproductdef>
+			<productname>PS2toUSB Adapter</productname>
+			<productid>0x0020</productid>
+		</deviceproductdef>
+	</item>
+
+  <item>
+    <devicevendordef>
+      <vendorname>Apple</vendorname>
+      <vendorid>0x05ac</vendorid>
+    </devicevendordef>
+    <deviceproductdef>
+      <productname>patrick elberg larsens keyboard</productname>
+      <productid>0x0256</productid>
+    </deviceproductdef>
+  </item>
+
+	<item>
+		<devicevendordef>
+			<vendorname>DASKEYBOARD</vendorname>
+			<vendorid>0x04d9</vendorid>
+		</devicevendordef>
+		<deviceproductdef>
+			<productname>das</productname>
+			<productid>0x2013</productid>
+		</deviceproductdef>
+	</item>	
+
+	<item>
+		<name>music keys</name>
+		<identifier>private.musiccontrol</identifier>
+		<autogen>--KeyToConsumer-- KeyCode::F13, ConsumerKeyCode::MUSIC_PLAY</autogen>
+	</item>
+
+	<item>
+		<name>brightness keys</name>
+		<identifier>private.brightnesscontrolspc</identifier>
+		<autogen>--KeyToConsumer-- KeyCode::HOME, ConsumerKeyCode::BRIGHTNESS_DOWN</autogen>
+		<autogen>--KeyToConsumer-- KeyCode::PAGEUP, ConsumerKeyCode::BRIGHTNESS_UP</autogen>
+	</item>
+
+	<item>
+		<name>power button</name>
+		<identifier>private.powerbuttononclearkey</identifier>
+		<autogen>--KeyToConsumer-- KeyCode::KEYPAD_CLEAR, ConsumerKeyCode::POWER</autogen>
+	</item>
+
+	<item>
+		<name>delete</name>
+		<identifier>private.deletebackspace</identifier>
+		<autogen>--KeyToKey-- KeyCode::DELETE, ModifierFlag::CONTROL_L, KeyCode::FORWARD_DELETE</autogen>
+	</item>
+
+	<item>
+		<name>alt gr</name>
+		<identifier>private.altgrcmdswitch</identifier>
+		<autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::OPTION_R</autogen>
+	</item>
+
+	<item>
+		<name>swap paragraph and backtick (for dell keyboard)</name>
+		<identifier>private.backtickparagraphswap</identifier>
+		<device_only>DeviceVendor::Dell, DeviceProduct::Dell USB Keyboard</device_only>
+		<autogen>--KeyToKey-- KeyCode::UK_SECTION, KeyCode::BACKQUOTE</autogen>
+		<autogen>--KeyToKey-- KeyCode::BACKQUOTE, KeyCode::UK_SECTION</autogen>
+	</item>
+
+	<item>
+		<name>ijkl arrow keys</name>
+		<identifier>private.arrowkeys</identifier>
+		<device_only>DeviceVendor::Dell, DeviceProduct::Dell USB Keyboard</device_only>
+		<autogen>--KeyToKey-- KeyCode::I, ModifierFlag::CONTROL_L, KeyCode::CURSOR_UP</autogen>
+		<autogen>--KeyToKey-- KeyCode::J, ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT</autogen>
+		<autogen>--KeyToKey-- KeyCode::K, ModifierFlag::CONTROL_L, KeyCode::CURSOR_DOWN</autogen>
+		<autogen>--KeyToKey-- KeyCode::L, ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT</autogen>
+	</item>
+
+	<item>
+		<name>ijkl arrow keys for ibm</name>
+		<identifier>private.arrowkeysibm</identifier>
+		<device_only>DeviceVendor::GASIA, DeviceProduct::PS2toUSB Adapter</device_only>
+		<autogen>--KeyToKey-- KeyCode::I, ModifierFlag::CONTROL_L, KeyCode::CURSOR_UP</autogen>
+		<autogen>--KeyToKey-- KeyCode::J, ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT</autogen>
+		<autogen>--KeyToKey-- KeyCode::K, ModifierFlag::CONTROL_L, KeyCode::CURSOR_DOWN</autogen>
+		<autogen>--KeyToKey-- KeyCode::L, ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT</autogen>
+	</item>
+
+  <item>
+    <name>ijkl arrow keys for das keyboard</name>
+    <identifier>private.arrowkeysdas</identifier>
+    <device_only>DeviceVendor::DASKEYBOARD, DeviceProduct::das</device_only>
+    <autogen>--KeyToKey-- KeyCode::I, ModifierFlag::CONTROL_L, KeyCode::CURSOR_UP</autogen>
+    <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT</autogen>
+    <autogen>--KeyToKey-- KeyCode::K, ModifierFlag::CONTROL_L, KeyCode::CURSOR_DOWN</autogen>
+    <autogen>--KeyToKey-- KeyCode::L, ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT</autogen>
+  </item>
+</root>
