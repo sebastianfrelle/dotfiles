@@ -1,0 +1,137 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"AngularJS",
+		"ApplySyntax",
+		"C Improved",
+		"cdnjs",
+		"CSS3",
+		"DashDoc",
+		"DocBlockr",
+		"ES6-Toolkit",
+		"File Rename",
+		"FontCycler",
+		"GitGutter",
+		"JavaScript Completions",
+		"JavaScriptNext - ES6 Syntax",
+		"JsFormat",
+		"Markdown Extended",
+		"Markdown HTML Preview",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Material Theme",
+		"Materialize",
+		"Numix Theme",
+		"Origami",
+		"Package Control",
+		"PackageResourceViewer",
+		"Scheme",
+		"Schemr",
+		"Solarized Color Scheme",
+		"Sublime Files",
+		"SublimeLinter",
+		"SublimeLinter-ruby",
+		"Swift",
+		"Theme - Augmented Reaction",
+		"Theme - Cobalt2",
+		"Theme - Cyanide",
+		"Theme - Monokai",
+		"Theme - Numix",
+		"Theme - SoDaReloaded",
+		"Themr",
+		"TypeScript",
+		"Visual Studio Dark"
+	],
+	"new_file_syntax": "Better Ruby/Ruby",
+	"repositories":
+	[
+		"https://gist.github.com/fnando/56393d3900af55bf9e94",
+		"https://github.com/fnando/better-ruby-for-sublime-text"
+	],
+	"reraise_exceptions": true,
+	"syntaxes":
+	[
+		{
+			"rules":
+			[
+				{
+					"file_path": ".*(\\\\|/)Gemfile$"
+				}
+			],
+			"syntax": "Better Ruby/Bundler"
+		},
+		{
+			"rules":
+			[
+				{
+					"file_path": ".*(\\\\|/)puma\\.rb$"
+				}
+			],
+			"syntax": "Better Ruby/Puma"
+		},
+		{
+			"rules":
+			[
+				{
+					"file_path": ".*_test\\.rb$"
+				}
+			],
+			"syntax": "Better Ruby/Ruby Test"
+		},
+		{
+			"extensions":
+			[
+				"thor",
+				"rake",
+				"simplecov",
+				"jbuilder",
+				"rb",
+				"podspec",
+				"rabl"
+			],
+			"rules":
+			[
+				{
+					"file_path": ".*(\\\\|/)Capfile$"
+				},
+				{
+					"file_path": ".*(\\\\|/)Guardfile$"
+				},
+				{
+					"file_path": ".*(\\\\|/)[Rr]akefile$"
+				},
+				{
+					"file_path": ".*(\\\\|/)Berksfile$"
+				},
+				{
+					"file_path": ".*(\\\\|/)[Cc]heffile$"
+				},
+				{
+					"file_path": ".*(\\\\|/)Thorfile$"
+				},
+				{
+					"file_path": ".*(\\\\|/)Podfile$"
+				},
+				{
+					"file_path": ".*(\\\\|/)config.ru$"
+				},
+				{
+					"file_path": ".*\\\\Vagrantfile(\\\\..*)?$"
+				},
+				{
+					"file_path": ".*/Vagrantfile(/..*)?$"
+				},
+				{
+					"interpreter": "ruby"
+				}
+			],
+			"syntax": "Better Ruby/Ruby"
+		}
+	]
+}
