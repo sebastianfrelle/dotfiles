@@ -1,3 +1,61 @@
+open turtlePlot.png
+python main.py
+open turtlePlot2
+open turtlePlot2.png 
+python main.py
+open turtlePlot2.png 
+python main.py
+open turtlePlot3.png 
+python main.py
+open turtlePlot2.png
+exit
+cd Dropbox/Exam\ project\ 02633/
+ls
+python main.py
+python main.py
+python main.py
+ls
+exit
+cmus
+exit
+time cat
+time cat
+exit
+cd Dropbox/
+cd ..
+cd Google\ Drive/Documents/dtu/02633/
+ls
+mkdir exam
+cd exam
+mkdir trial
+cd trial/
+ls
+time cat
+ls
+python trial.py
+python trial.py
+python trial.py
+python trial.py
+python trial.py
+exit
+cd "~/Google Drive/Documents/dtu/02633/writtenexam/"
+cd "Google Drive/Documents/dtu/02633/writtenexam/"
+ls
+python opg1.py
+python opg1.py
+python opg1.py
+python opg1.py
+python opg1.py
+python opg1.py
+python opg1.py
+python opg2.py
+ipython
+python opg2.py
+python opg2.py
+python opg2.py
+python opg2.py
+python opg2.py
+python opg2.py
 python opg2.py
 python opg3.py
 python opg4.py
@@ -440,61 +498,3 @@ ln -s $(pwd)/.bash_sessions ~/.bash_sessions
 ln -s $(pwd)/.bashrc ~/.bashrc
 cd
 ls 
-ls
-ls -a
-ls -l
-ls -al
-cat .bashrc
-cat .bash_profile 
-cd dotfiles/
-ls
-cd zsh
-ls
-ls -a
-cd ..
-find . -name prezto
-find . -type d -name prezto
-find . -type d -name *z*
-find ./ -type d -name *z*
-find . -type d -name *z*
-ls
-cd iterm2/
-ls
-cd ..
-ls
-cd zsh/
-ls
-ls -a
-cd ..
-ls
-cd ..
-ls
-cd zsh
-ls
-ls
-cd dotfiles/
-ls
-cd zsh/
-ls
-ls -a
-git clone https://github.com/SebastianFrelle/personal-prezto
-ls
-ls -a
-ln -s $(pwd)/personal-prezto ~/.zprezto
-ls
-cd ~/
-ls
-ls -a
-touch zsh_linker.sh
-vim zsh_linker.sh 
-chmod +x zsh_linker.sh 
-./zsh_linker.sh 
-ls
-ls -a
-./zsh_linker.sh 
-brew install zsh
-ls
-zsh
-exit
-zsh
-exit

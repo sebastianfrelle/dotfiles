@@ -1,3 +1,61 @@
+open turtlePlot.png
+python main.py
+open turtlePlot2
+open turtlePlot2.png 
+python main.py
+open turtlePlot2.png 
+python main.py
+open turtlePlot3.png 
+python main.py
+open turtlePlot2.png
+exit
+cd Dropbox/Exam\ project\ 02633/
+ls
+python main.py
+python main.py
+python main.py
+ls
+exit
+cmus
+exit
+time cat
+time cat
+exit
+cd Dropbox/
+cd ..
+cd Google\ Drive/Documents/dtu/02633/
+ls
+mkdir exam
+cd exam
+mkdir trial
+cd trial/
+ls
+time cat
+ls
+python trial.py
+python trial.py
+python trial.py
+python trial.py
+python trial.py
+exit
+cd "~/Google Drive/Documents/dtu/02633/writtenexam/"
+cd "Google Drive/Documents/dtu/02633/writtenexam/"
+ls
+python opg1.py
+python opg1.py
+python opg1.py
+python opg1.py
+python opg1.py
+python opg1.py
+python opg1.py
+python opg2.py
+ipython
+python opg2.py
+python opg2.py
+python opg2.py
+python opg2.py
+python opg2.py
+python opg2.py
 python opg2.py
 python opg3.py
 python opg4.py
@@ -494,7 +552,5 @@ ls -a
 ./zsh_linker.sh 
 brew install zsh
 ls
-zsh
-exit
 zsh
 exit

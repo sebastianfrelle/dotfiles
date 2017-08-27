@@ -25,7 +25,7 @@ if [[ -e $target ]]; then
   echo
   if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo "Removing existing symlink"
-    rm $target
+    rm -r "$target"
   else
     echo "Not overwriting"
     exit
