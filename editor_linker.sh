@@ -20,6 +20,7 @@ function symlink {
   ln -nsf "$1" "$2"
 }
 
+
 if [[ -e $target ]]; then
   read -p "config already exists. Do you wish to overwrite? " -n 1 -r
   echo
