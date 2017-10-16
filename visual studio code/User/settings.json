@@ -4,10 +4,9 @@
   "window.zoomLevel": 0,
   // editor settings
   "editor.cursorBlinking": "solid",
-  // "editor.fontFamily": "SF Mono",
-  "editor.fontFamily": "SF Mono",
-  "editor.lineHeight": 20,
-  "editor.fontSize": 12,
+  "editor.fontFamily": "SFMono-Light",
+  "editor.lineHeight": 22,
+  "editor.fontSize": 13,
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
@@ -26,7 +25,7 @@
         "name": "Docstring",
         "scope": "string.quoted.docstring",
         "settings": {
-          "foreground": "#abb"
+          "foreground": "#888"
         }
       }
     ]
@@ -37,6 +36,7 @@
   "workbench.activityBar.visible": false,
   "workbench.editor.enablePreview": false,
   "workbench.editor.tabCloseButton": "off",
+  "workbench.startupEditor": "none",
   // language settings
   "[c]": {
     "editor.tabSize": 4
@@ -45,15 +45,10 @@
     "editor.quickSuggestions": false,
     "editor.wordWrap": "on",
     "editor.tabSize": 4,
-    "editor.rulers": []
+    "editor.rulers": [],
+    "editor.fontFamily": "InputSans-ExtraLight"
   },
   "[python]": {
-    "editor.tabSize": 4
-  },
-  "[ruby]": {
-    "editor.tabSize": 2
-  },
-  "[rust]": {
     "editor.tabSize": 4
   },
   "[sql]": {
@@ -70,5 +65,6 @@
     "--extension-pkg-whitelist=cv2" // no-member errors raised for cv2
   ],
   "extensions.ignoreRecommendations": false,
-  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)"
+  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons"
 }
