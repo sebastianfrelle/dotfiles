@@ -30,7 +30,6 @@
       }
     ]
   },
-  "git.enabled": false,
   "terminal.integrated.lineHeight": 1.3,
   "terminal.integrated.fontSize": 13,
   "workbench.activityBar.visible": false,
@@ -62,9 +61,9 @@
   "pasteImage.path": "./images/",
   "python.linting.pylintArgs": [
     "--disable=C0103", // naming conventions
-    "--extension-pkg-whitelist=cv2" // no-member errors raised for cv2
+    "--extension-pkg-whitelist=cv2,numpy" // no-member errors raised for cv2
   ],
   "extensions.ignoreRecommendations": false,
-  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
-  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons"
+  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+  "workbench.colorTheme": "Monokai Pro (Filter Machine)"
 }
