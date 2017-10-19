@@ -3,22 +3,27 @@
   // window settings
   "window.zoomLevel": 0,
   // editor settings
+  // - cursor
   "editor.cursorBlinking": "solid",
-  "editor.fontFamily": "SFMono-Light",
-  "editor.lineHeight": 22,
-  "editor.fontSize": 13,
+  "editor.cursorStyle": "block",
+  // - font/typesetting
+  "editor.fontFamily": "Inconsolata-g for powerline",
   "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  // "editor.lineHeight": 24,
   "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
   "editor.rulers": [
-    // 75 // FOR PROPORTIONAL FONT
-    80 // FOR MONOSPACED FONT
+    80
   ],
   "editor.snippetSuggestions": "top",
   "editor.suggestOnTriggerCharacters": false,
   "editor.tabSize": 2,
   "editor.wordBasedSuggestions": false,
-  // workbench settings
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ddd",
+    "editorCursor.background": "#000"
+  },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -30,22 +35,23 @@
       }
     ]
   },
-  "terminal.integrated.lineHeight": 1.3,
-  "terminal.integrated.fontSize": 13,
+  // terminal settings
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.1,
+  // workbench settings
   "workbench.activityBar.visible": false,
+  "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
   "workbench.editor.tabCloseButton": "off",
-  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
   // language settings
   "[c]": {
     "editor.tabSize": 4
   },
   "[markdown]": {
     "editor.quickSuggestions": false,
-    "editor.wordWrap": "on",
-    "editor.tabSize": 4,
     "editor.rulers": [],
-    "editor.fontFamily": "InputSans-ExtraLight"
+    "editor.wordWrap": "on"
   },
   "[python]": {
     "editor.tabSize": 4
@@ -53,17 +59,20 @@
   "[sql]": {
     "editor.tabSize": 4
   },
-  // package settings
+  // extensions settings
+  "extensions.ignoreRecommendations": false,
+  // - go
   "go.formatOnSave": false,
+  // - python
+  "python.linting.pylintArgs": [
+    "--disable=C0103", // naming conventions
+    "--extension-pkg-whitelist=cv2,numpy" // don't check for no-member on these
+  ],
+  // - markdown
   "markdown.preview.markEditorSelection": false,
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditorSelection": false,
   "pasteImage.path": "./images/",
-  "python.linting.pylintArgs": [
-    "--disable=C0103", // naming conventions
-    "--extension-pkg-whitelist=cv2,numpy" // no-member errors raised for cv2
-  ],
-  "extensions.ignoreRecommendations": false,
-  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
-  "workbench.colorTheme": "Monokai Pro (Filter Machine)"
+  "workbench.colorTheme": "Ayu Light",
+  "editor.renderLineHighlight": "line"
 }

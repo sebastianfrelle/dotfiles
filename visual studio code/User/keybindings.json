@@ -44,6 +44,11 @@
         "key": "cmd+k cmd+r",
         "command": "python.execInTerminal"
     },
+    {
+        "key": "cmd+shift+d",
+        "command": "editor.action.addSelectionToPreviousFindMatch",
+        "when": "editorFocus"
+    },
     // Switched off
     {
         "key": "ctrl+tab",
