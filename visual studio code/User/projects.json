@@ -1,13 +1,25 @@
 [
 	{
-		"name": "turbofluen",
-		"rootPath": "$home/git/turbofluen",
+		"name": "WORK_python_prototype",
+		"rootPath": "$home/work/smartgurlz/pyimagesearch/ball_tracking",
 		"paths": [],
 		"group": ""
 	},
 	{
-		"name": "turbofluen-refactor",
-		"rootPath": "$home/git/turbofluen-refactor",
+		"name": "hamster",
+		"rootPath": "$home/work/sparetime/hamster",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "band-graph",
+		"rootPath": "$home/work/sparetime/band-graph",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "WORK_innobooster",
+		"rootPath": "$home/gdrive/work/SmartGurlz/innobooster",
 		"paths": [],
 		"group": ""
 	}
