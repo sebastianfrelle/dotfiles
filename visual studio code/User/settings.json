@@ -1,4 +1,3 @@
-// Place your settings in this file to overwrite the default settings
 {
   // window settings
   "window.zoomLevel": 0,
@@ -20,7 +19,7 @@
   "editor.wordBasedSuggestions": false,
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#ddd",
-    "editorCursor.background": "#000"
+    "editorCursor.background": "#333"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -48,8 +47,7 @@
   "[markdown]": {
     "editor.quickSuggestions": false,
     "editor.rulers": [],
-    "editor.wordWrap": "on",
-    "editor.lineHeight": 20
+    "editor.wordWrap": "on"
   },
   "[python]": {
     "editor.tabSize": 4
@@ -72,5 +70,6 @@
   "markdown.preview.scrollPreviewWithEditorSelection": false,
   "pasteImage.path": "./images/",
   "editor.renderLineHighlight": "line",
-  "workbench.colorTheme": "Ayu Mirage"
+  "workbench.colorTheme": "Ayu Mirage",
+  "workbench.panel.location": "right"
 }
