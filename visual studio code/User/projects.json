@@ -1,25 +1,25 @@
 [
 	{
-		"name": "WORK_python_prototype",
-		"rootPath": "$home/work/smartgurlz/pyimagesearch/ball_tracking",
-		"paths": [],
-		"group": ""
-	},
-	{
 		"name": "hamster",
 		"rootPath": "$home/work/sparetime/hamster",
 		"paths": [],
 		"group": ""
 	},
 	{
-		"name": "band-graph",
-		"rootPath": "$home/work/sparetime/band-graph",
+		"name": "WORK_innobooster",
+		"rootPath": "$home/gdrive/work/SmartGurlz/innobooster",
 		"paths": [],
 		"group": ""
 	},
 	{
-		"name": "WORK_innobooster",
-		"rootPath": "$home/gdrive/work/SmartGurlz/innobooster",
+		"name": "hat_detection",
+		"rootPath": "$home/work/smartgurlz/hat_detection",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "graph",
+		"rootPath": "$home/work/sparetime/graph",
 		"paths": [],
 		"group": ""
 	}

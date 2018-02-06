@@ -7,7 +7,7 @@
   "editor.cursorStyle": "block",
   // - font/typesetting
   "editor.fontFamily": "consolas",
-  "editor.fontSize": 16,
+  "editor.fontSize": 15,
   "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
   "editor.rulers": [
@@ -55,21 +55,36 @@
   "[sql]": {
     "editor.tabSize": 4
   },
+  "[plaintext]": {
+    "editor.quickSuggestions": false,
+    "editor.rulers": [],
+    "editor.wordWrap": "on"
+  },
   // extensions settings
   "extensions.ignoreRecommendations": false,
   // - go
-  "go.formatOnSave": false,
   // - python
   "python.linting.pylintArgs": [
     "--disable=C0103", // naming conventions
     "--extension-pkg-whitelist=cv2,numpy" // don't check for no-member on these
   ],
+  "python.linting.enabledWithoutWorkspace": true,
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.pylintPath": "pylint",
+  // - javascript
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
   // - markdown
   "markdown.preview.markEditorSelection": false,
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditorSelection": false,
+  // - html
+  "html.format.indentHandlebars": true,
+
   "pasteImage.path": "./images/",
-  "editor.renderLineHighlight": "line",
   "workbench.colorTheme": "Ayu Mirage",
-  "workbench.panel.location": "right"
+  "editor.multiCursorModifier": "ctrlCmd",
+  "python.pythonPath": "/usr/local/bin/python3.6"
 }

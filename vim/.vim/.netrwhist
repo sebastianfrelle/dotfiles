@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/zhelvisdanas/.config/cmus'
 let g:netrw_dirhist_2='/Users/zhelvisdanas/.vim'
 let g:netrw_dirhist_3='/Users/zhelvisdanas/.zprezto'
 let g:netrw_dirhist_4='/Users/zhelvisdanas/git/turbofluen/node_modules'
 let g:netrw_dirhist_5='/Users/zhelvisdanas/work/python/airtable-client/airtable_client'
+let g:netrw_dirhist_6='/Users/sebastiankoch/Dropbox/Apps/Todotxt+'

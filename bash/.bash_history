@@ -1,7 +1,3 @@
-python opg2.py
-python opg3.py
-python opg4.py
-python opg4.py
 python opg4.py
 python opg4.py
 python opg4.py
@@ -498,3 +494,7 @@ zsh
 exit
 zsh
 exit
+N = 20
+y_mean
+y_mean = mean(y)
+sd is
