@@ -22,5 +22,11 @@
 		"rootPath": "$home/work/sparetime/graph",
 		"paths": [],
 		"group": ""
+	},
+	{
+		"name": "dtu_ml_data_mining",
+		"rootPath": "$home/gdrive/school/6semester/02450_machine_learning/src/dtu_ml_data_mining",
+		"paths": [],
+		"group": ""
 	}
 ]

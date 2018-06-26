@@ -1,13 +1,19 @@
 {
   // window settings
   "window.zoomLevel": 0,
+  "window.title": "${activeEditorShort}${separator}${folderPath}",
   // editor settings
   // - cursor
   "editor.cursorBlinking": "solid",
-  "editor.cursorStyle": "block",
+  "editor.cursorStyle": "line",
+  "editor.fontLigatures": true,
   // - font/typesetting
-  "editor.fontFamily": "consolas",
-  "editor.fontSize": 15,
+  // "editor.fontFamily": "consolas",
+  "editor.fontFamily": "firacode-light",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 22,
+  // "editor.fontSize": 14,
+  // "editor.lineHeight": 24,
   "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
   "editor.rulers": [
@@ -17,20 +23,18 @@
   "editor.suggestOnTriggerCharacters": false,
   "editor.tabSize": 2,
   "editor.wordBasedSuggestions": false,
-  "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#ddd",
-    "editorCursor.background": "#333"
-  },
+  
   "editor.tokenColorCustomizations": {
     "textMateRules": [
+      // for python docstrings
       {
         "name": "Docstring",
         "scope": "string.quoted.docstring",
         "settings": {
-          "foreground": "#888"
+          "foreground": "#888",
         }
-      }
-    ]
+      },
+    ],
   },
   // terminal settings
   "terminal.integrated.fontSize": 15,
@@ -47,10 +51,10 @@
   "[markdown]": {
     "editor.quickSuggestions": false,
     "editor.rulers": [],
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
   },
   "[python]": {
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
   },
   "[sql]": {
     "editor.tabSize": 4
@@ -60,19 +64,23 @@
     "editor.rulers": [],
     "editor.wordWrap": "on"
   },
+  "[html]": {
+    "editor.rulers": [],
+  },
   // extensions settings
   "extensions.ignoreRecommendations": false,
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
   // - go
   // - python
   "python.linting.pylintArgs": [
-    "--disable=C0103", // naming conventions
+    "--disable=C0103,R0903", // naming conventions
     "--extension-pkg-whitelist=cv2,numpy" // don't check for no-member on these
   ],
-  "python.linting.enabledWithoutWorkspace": true,
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
   "python.linting.lintOnSave": true,
-  "python.linting.pylintPath": "pylint",
+  // "python.linting.pylintPath": "/usr/local/bin/pylint", // points to python3 installation
+  "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
   // - javascript
   "javascript.format.insertSpaceAfterConstructor": true,
   "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
@@ -82,9 +90,15 @@
   "markdown.preview.scrollPreviewWithEditorSelection": false,
   // - html
   "html.format.indentHandlebars": true,
-
   "pasteImage.path": "./images/",
-  "workbench.colorTheme": "Ayu Mirage",
+  "workbench.colorTheme": "GitHub Plus",
   "editor.multiCursorModifier": "ctrlCmd",
-  "python.pythonPath": "/usr/local/bin/python3.6"
+  "python.pythonPath": "/usr/local/bin/python3.6",
+  "csv-preview.separator": ",",
+  // zen mode
+  "zenMode.centerLayout": true,
+  "zenMode.hideStatusBar": true,
+  "zenMode.hideActivityBar": true,
+  "zenMode.fullScreen": true,
+  "zenMode.hideTabs": false
 }
