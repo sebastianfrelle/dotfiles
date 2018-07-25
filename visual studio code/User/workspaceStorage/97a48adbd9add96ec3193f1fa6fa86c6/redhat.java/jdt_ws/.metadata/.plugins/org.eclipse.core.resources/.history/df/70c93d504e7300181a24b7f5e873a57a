@@ -1,0 +1,77 @@
+package org.apache.olingo.sample.annotation.model;
+import java.util.Calendar;
+import java.util.Date;
+import org.apache.olingo.odata2.api.annotation.edm.EdmEntitySet;
+import org.apache.olingo.odata2.api.annotation.edm.EdmEntityType;
+import org.apache.olingo.odata2.api.annotation.edm.EdmKey;
+import org.apache.olingo.odata2.api.annotation.edm.EdmNavigationProperty;
+import org.apache.olingo.odata2.api.annotation.edm.EdmProperty;
+import org.apache.olingo.odata2.api.annotation.edm.EdmType;
+/**
+ *
+ */
+@EdmEntityType(namespace = "MyFormula")
+@EdmEntitySet(name = "WorkUnits")
+public class WorkUnit {
+
+  @EdmKey
+  @EdmProperty
+  private String name;
+  @EdmNavigationProperty
+  private OrganisationalUnit unit;
+  @EdmNavigationProperty
+  private Worker worker;
+  @EdmProperty(type = EdmType.DATE_TIME)
+  private Calendar date;
+
+  @EdmProperty
+  private Double hours;
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public OrganisationalUnit getUnit() {
+      return unit;
+  }
+  
+  public void setUnit(OrganisationalUnit unit) {
+      this.unit = unit;
+  }
+
+  public Worker getWorker() {
+      return worker;
+  }
+
+  public void setWorker(Worker worker) {
+      this.worker = worker;
+  }
+
+  public Calendar getDate() {
+    return date;
+  }
+
+  public void setDate(Calendar date) {
+    this.date = date;
+  }
+
+  public Double getHours() {
+    return this.hours;
+  }
+
+  public void setHours(Double hours) {
+    this.hours = hours;
+  }
+
+
+
+  @Override
+  public String toString() {
+    return "Worker{" + "name=" + name + '}';
+  }
+
+}

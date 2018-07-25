@@ -1,0 +1,47 @@
+package org.apache.olingo.sample.annotation.model;
+
+import org.apache.olingo.odata2.api.annotation.edm.EdmEntitySet;
+import org.apache.olingo.odata2.api.annotation.edm.EdmEntityType;
+import org.apache.olingo.odata2.api.annotation.edm.EdmKey;
+import org.apache.olingo.odata2.api.annotation.edm.EdmNavigationProperty;
+import org.apache.olingo.odata2.api.annotation.edm.EdmProperty;
+import java.util.List;
+import java.util.ArrayList;
+import org.apache.olingo.odata2.api.annotation.edm.EdmNavigationProperty.Multiplicity;
+/**
+ *
+ */
+@EdmEntityType(namespace = "MyFormula")
+@EdmEntitySet(name = "Projects")
+public class Project {
+
+  @EdmKey
+  @EdmProperty
+  private String name;
+  
+  @EdmNavigationProperty(name = "Areas", toType = Area.class, toMultiplicity = Multiplicity.MANY)
+  private List<Area> areas = new ArrayList<Area>();
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public List<Area> getAreas() {
+    return areas;
+}
+
+  public void setAreas(List<Area> areas) {
+    this.areas = areas;
+  }
+
+
+  @Override
+  public String toString() {
+    return "Project{" + "name=" + name + '}';
+  }
+
+}

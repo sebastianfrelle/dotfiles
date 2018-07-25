@@ -10,10 +10,10 @@
   // - font/typesetting
   // "editor.fontFamily": "consolas",
   "editor.fontFamily": "firacode-light",
-  "editor.fontSize": 13,
-  "editor.lineHeight": 22,
-  // "editor.fontSize": 14,
-  // "editor.lineHeight": 24,
+  // "editor.fontSize": 13,
+  // "editor.lineHeight": 22,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 24,
   "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
   "editor.rulers": [
@@ -91,7 +91,7 @@
   // - html
   "html.format.indentHandlebars": true,
   "pasteImage.path": "./images/",
-  "workbench.colorTheme": "GitHub Plus",
+  "workbench.colorTheme": "Ayu Mirage",
   "editor.multiCursorModifier": "ctrlCmd",
   "python.pythonPath": "/usr/local/bin/python3.6",
   "csv-preview.separator": ",",
