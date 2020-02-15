@@ -6,6 +6,5 @@ set number
 
 " Plugins
 call plug#begin()
-" Svelte
 Plug 'evanleck/vim-svelte'
 call plug#end()
