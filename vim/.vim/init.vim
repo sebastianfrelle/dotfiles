@@ -1,1 +1,0 @@
-set runtimepath+=~/.vim/bundle/neobundle.vim/
