@@ -1,6 +1,7 @@
 font:
         normal:
                 # family: SF Mono
+                # family: Input Mono
                 family: Office Code Pro
                 style: Regular
 

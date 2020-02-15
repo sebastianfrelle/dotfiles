@@ -24,4 +24,9 @@ endif
 " - List plugins
 call plug#begin()
 Plug 'evanleck/vim-svelte'
+Plug 'slashmili/alchemist.vim'
+Plug 'elixir-editors/vim-elixir'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 call plug#end()
+
+let g:deoplete#enable_at_startup = 1
