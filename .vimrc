@@ -36,5 +36,4 @@ let g:deoplete#enable_at_startup = 1
 " Colors
 syntax enable
 let base16colorspace=256
-" colorscheme base16-default-dark
-colorscheme base16-github
+colorscheme base16-default-dark
