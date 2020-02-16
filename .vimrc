@@ -23,10 +23,18 @@ endif
 
 " - List plugins
 call plug#begin()
+Plug 'tpope/vim-commentary'
 Plug 'evanleck/vim-svelte'
 Plug 'slashmili/alchemist.vim'
 Plug 'elixir-editors/vim-elixir'
+Plug 'chriskempson/base16-vim'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 call plug#end()
 
 let g:deoplete#enable_at_startup = 1
+
+" Colors
+syntax enable
+let base16colorspace=256
+" colorscheme base16-default-dark
+colorscheme base16-github
