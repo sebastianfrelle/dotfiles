@@ -8,6 +8,7 @@ set shiftwidth=2
 set scrolloff=5
 set number
 set relativenumber
+set incsearch
 
 " https://agilesysadmin.net/how-to-manage-long-lines-in-vim/
 autocmd FileType markdown setlocal linebreak " wrap on words, not characters
@@ -40,7 +41,7 @@ let g:mix_format_on_save = 1
 " Colors
 syntax enable
 let base16colorspace=256
-colorscheme base16-default-dark
+colorscheme base16-default-dark 
 
 " autocmds
 " autocmd FileType markdown deoplete#custom#option('auto_complete', v:false) 
