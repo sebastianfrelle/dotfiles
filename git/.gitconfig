@@ -1,7 +1,5 @@
 # This is Git's per-user configuration file.
 [user]
 	useConfigOnly = true
-	name = Sebastian Frelle Koch
-	email = sfk@trifork.com
 [core]
-	editor = nvim
+	editor = vim
