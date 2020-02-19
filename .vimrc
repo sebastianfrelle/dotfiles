@@ -13,10 +13,9 @@ set relativenumber
 set incsearch
 set hlsearch
 
-
 " https://agilesysadmin.net/how-to-manage-long-lines-in-vim/
-autocmd FileType markdown setlocal linebreak " wrap on words, not characters
-autocmd FileType text setlocal linebreak " wrap on words, not characters
+autocmd FileType markdown setlocal linebreak
+autocmd FileType text setlocal linebreak
 autocmd FileType markdown silent CocDisable
 
 " Plug
