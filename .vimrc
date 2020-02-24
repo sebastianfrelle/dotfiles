@@ -8,6 +8,8 @@ set shiftwidth=2
 set scrolloff=5
 set number
 set relativenumber
+" https://superuser.com/questions/161178/why-does-vim-delay-for-a-second-whenever-i-use-the-o-command-open-a-new-line
+set noesckeys
 
 " Search
 set incsearch
@@ -16,6 +18,8 @@ set hlsearch
 " https://agilesysadmin.net/how-to-manage-long-lines-in-vim/
 autocmd FileType markdown setlocal linebreak
 autocmd FileType text setlocal linebreak
+
+" No autocomplete necessary
 autocmd FileType markdown silent CocDisable
 
 " Plug
@@ -24,14 +28,13 @@ Plug 'tpope/vim-commentary'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'chriskempson/base16-vim'
+Plug '/usr/local/opt/fzf'
 
 " Languages
 " - Svelte
 Plug 'evanleck/vim-svelte'
 " - Elixir
 Plug 'elixir-editors/vim-elixir'
-Plug 'slashmili/alchemist.vim'
-Plug 'mhinz/vim-mix-format'
 let g:mix_format_on_save = 1
 call plug#end()
 
