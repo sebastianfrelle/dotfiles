@@ -31,11 +31,13 @@ Plug 'chriskempson/base16-vim'
 Plug '/usr/local/opt/fzf'
 
 " Languages
-" - Svelte
-Plug 'evanleck/vim-svelte'
 " - Elixir
 Plug 'elixir-editors/vim-elixir'
-let g:mix_format_on_save = 1
+" - JavaScript
+Plug 'pangloss/vim-javascript'
+let g:javascript_plugin_jsdoc = 1
+" - Svelte
+Plug 'evanleck/vim-svelte'
 call plug#end()
 
 " https://stackoverflow.com/questions/4946421/vim-moving-with-hjkl-in-long-lines-screen-lines
