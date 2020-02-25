@@ -1,12 +1,5 @@
 font:
   normal:
-    # family: SF Mono
-    # family: Input Mono
-    # family: Go Mono
-    # family: Fantasque Sans Mono
-    # family: mononoki
-    # family: Anonymous Pro
-    # family: Office Code Pro
     family: Source Code Pro
     style: Regular
 
