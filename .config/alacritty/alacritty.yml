@@ -6,7 +6,8 @@ font:
     # family: Fantasque Sans Mono
     # family: mononoki
     # family: Anonymous Pro
-    family: Office Code Pro
+    # family: Office Code Pro
+    family: Source Code Pro
     style: Regular
 
   bold:
