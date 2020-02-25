@@ -27,7 +27,6 @@ call plug#begin()
 Plug 'tpope/vim-commentary'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'chriskempson/base16-vim'
 Plug '/usr/local/opt/fzf'
 
 " Languages
@@ -59,7 +58,3 @@ nnoremap <silent> <expr> 0 ScreenMovement("0")
 nnoremap <silent> <expr> ^ ScreenMovement("^")
 nnoremap <silent> <expr> $ ScreenMovement("$")
 
-" Colors
-syntax enable
-let base16colorspace=256
-colorscheme base16-default-dark 
