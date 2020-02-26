@@ -27,6 +27,7 @@ call plug#begin()
 Plug 'tpope/vim-commentary'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'junegunn/fzf.vim'
 Plug '/usr/local/opt/fzf'
 
 " Languages
