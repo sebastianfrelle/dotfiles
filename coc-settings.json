@@ -1,0 +1,7 @@
+{
+  /*
+  Prevents js error reporting from interfering with svelte.
+  https://github.com/UnwrittenFun/svelte-vscode/issues/79#issuecomment-537063902
+  */
+  "svelte.plugin.typescript.diagnostics.enable": false
+}
