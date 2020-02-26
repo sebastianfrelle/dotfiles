@@ -1,6 +1,8 @@
-# dotfiles
+# Dotfiles
 
 Config for macOS (theoretically for other \*nix systems). Until I can be bothered to set up scripts to install and link everything properly, here are some general, incomplete notes on how to get everything set up, ordered by program.
+
+## Vim
 
 ### coc
 
