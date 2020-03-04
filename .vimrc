@@ -53,9 +53,8 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-syntax enable
 let base16colorspace=256
-colorscheme base16-default-dark
+source ~/.vimrc_background
 
 " Basic
 set t_Co=256
