@@ -5,6 +5,18 @@ set nocompatible
 " https://superuser.com/questions/161178/why-does-vim-delay-for-a-second-whenever-i-use-the-o-command-open-a-new-line
 set ttimeoutlen=0
 
+let mapleader=","
+filetype off
+set encoding=utf-8
+
+set laststatus=2
+
+set statusline=
+set statusline+=%f:%l:%c\ %m
+" set statusline+=%{tagbar#currenttag('\ [%s]\ ','','')}
+set statusline+=%=
+set statusline+=%{FugitiveStatusline()}
+
 " Plug
 call plug#begin()
 Plug 'tpope/vim-commentary'
@@ -13,6 +25,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf.vim'
 Plug '/usr/local/opt/fzf'
 Plug 'chriskempson/base16-vim'
+Plug 'tpope/vim-fugitive'
 
 " Languages
 " - Elixir
@@ -66,7 +79,7 @@ set shiftwidth=2
 set scrolloff=5
 set number
 set relativenumber
-set ruler
+" set ruler
 
 " Search
 set incsearch

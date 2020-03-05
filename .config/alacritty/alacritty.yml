@@ -27,9 +27,9 @@ font:
 
   size: 14.0
 
-  offset:
+  # offset:
     # y: 0
-    y: 5
+    # y: 5
 
   use_thin_strokes: false
 
