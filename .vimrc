@@ -35,6 +35,15 @@ Plug 'pangloss/vim-javascript'
 let g:javascript_plugin_jsdoc = 1
 " - Svelte
 Plug 'evanleck/vim-svelte'
+" - Markdown
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+" {{
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_new_list_item_indent = 0
+let g:vim_markdown_auto_insert_bullets = 1
+let g:vim_markdown_strikethrough = 1
+" }}
 call plug#end()
 
 " https://stackoverflow.com/questions/4946421/vim-moving-with-hjkl-in-long-lines-screen-lines

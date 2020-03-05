@@ -13,7 +13,6 @@ window:
 
 font:
   normal:
-    # family: Source Code Pro
     family: Iosevka
     style: Light
 
