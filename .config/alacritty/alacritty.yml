@@ -13,8 +13,8 @@ window:
 
 font:
   normal:
-    family: Iosevka
-    style: Light
+    family: SF Mono
+    style: Regular
 
   bold:
     style: Bold
@@ -25,7 +25,7 @@ font:
   bold_italic:
     style: Bold Italic
 
-  size: 14.0
+  size: 13.0
 
   # offset:
     # y: 0
