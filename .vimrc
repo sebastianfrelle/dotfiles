@@ -88,7 +88,6 @@ set shiftwidth=2
 set scrolloff=5
 set number
 set relativenumber
-" set ruler
 
 " Search
 set incsearch
