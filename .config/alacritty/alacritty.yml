@@ -1,6 +1,4 @@
 window:
-  startup_mode: SimpleFullscreen
-
   dimensions:
     columns: 120
     lines: 35
@@ -13,7 +11,7 @@ window:
 
 font:
   normal:
-    family: SF Mono
+    family: Source Code Pro
     style: Regular
 
   bold:
@@ -27,13 +25,8 @@ font:
 
   size: 13.0
 
-  # offset:
-    # y: 0
-    # y: 5
-
-  use_thin_strokes: false
-
 draw_bold_text_with_bright_colors: false
 
 key_bindings:
   - { key: F, mods: Command, action: ToggleSimpleFullscreen }
+  - { key: E, mods: Control|Shift, action: SpawnNewInstance }
